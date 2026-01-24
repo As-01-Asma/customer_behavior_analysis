@@ -2,7 +2,7 @@
 
 *Visualizing customer interactions, shopping trends, and behaviour patterns*
 
-─────────────────────────────
+---
 
 ## 📑 Table of Contents
 - 📝 [**Project Overview**](#project-overview)  
@@ -17,7 +17,7 @@
 - 💼 [**Business Value**](#business-value)  
 - ✅ [**Conclusion**](#conclusion)
 
-─────────────────────────────
+---
 
 <a id="project-overview"></a>
 ## 📝 Project Overview
@@ -25,7 +25,7 @@
 Customer Behaviour Analysis focuses on understanding how customers interact with products and services by analyzing purchasing patterns, repeat purchases, and decision‑making factors.  
 This project uncovers insights related to **buying behavior, repeat purchases, discounts, reviews, seasonal trends, and payment preferences** using **Python, SQL, and Power BI concepts** to support data‑driven business decisions.
 
-─────────────────────────────
+---
 
 <a id="dataset-description"></a>
 ## 📂 Dataset Description
@@ -39,7 +39,7 @@ The dataset represents structured customer transaction data including:
 - 🔁 Purchase frequency and repeat behavior  
 - 📅 Seasonal and time‑based trends  
 
-─────────────────────────────
+---
 
 <a id="key-analysis-areas"></a>
 ## 🔍 Key Analysis Areas
@@ -51,7 +51,7 @@ The dataset represents structured customer transaction data including:
 - 📊 Seasonal demand trends  
 - 💳 Preferred payment methods  
 
-─────────────────────────────
+---
 
 <a id="tools--technologies"></a>
 ## 🛠️ Tools & Technologies
@@ -60,7 +60,7 @@ The dataset represents structured customer transaction data including:
 - SQL (PostgreSQL)  
 - Power BI concepts  
 
-─────────────────────────────
+---
 
 <a id="dashboard-concept"></a>
 ## 📊 Dashboard Concept
@@ -73,8 +73,9 @@ The dashboard would conceptually include:
 - Discount effectiveness  
 - Payment preference distribution  
 
+*No real dashboards or files included — purely for concept and visualization.*
 
-─────────────────────────────
+---
 
 <a id="project-workflow"></a>
 ## 🔄 Project Workflow
@@ -86,7 +87,7 @@ The dashboard would conceptually include:
 5. Insight Generation  
 6. Dashboard Concept Visualization  
 
-─────────────────────────────
+---
 
 <a id="project-structure"></a>
 ## 🗂️ Project Structure
@@ -103,7 +104,7 @@ Customer-Behaviour-Analysis/
 │   └── 📄 icons for visuals (optional placeholders)  
 └── 📄 README.md  
 
-─────────────────────────────
+---
 
 <a id="how-to-run"></a>
 ## ▶️ How to Run
@@ -115,7 +116,7 @@ Customer-Behaviour-Analysis/
 5. Execute SQL queries (provided)  
 6. Conceptually explore dashboard ideas  
 
-─────────────────────────────
+---
 
 <a id="key-insights"></a>
 ## 💡 Key Insights
@@ -124,7 +125,7 @@ Customer-Behaviour-Analysis/
 - Highlighted high-value segments and trends  
 - Provided actionable insights for strategic decisions  
 
-─────────────────────────────
+---
 
 <a id="business-value"></a>
 ## 💼 Business Value
@@ -133,7 +134,7 @@ Customer-Behaviour-Analysis/
 - Optimizes discount and promotion campaigns  
 - Helps improve customer retention and repeat purchases  
 
-─────────────────────────────
+---
 
 <a id="conclusion"></a>
 ## ✅ Conclusion
