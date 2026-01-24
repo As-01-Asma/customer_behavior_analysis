@@ -73,7 +73,6 @@ The dashboard would conceptually include:
 - Discount effectiveness  
 - Payment preference distribution  
 
-*No real dashboards or files included — purely for concept and visualization.*
 
 ─────────────────────────────
 
