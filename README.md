@@ -2,19 +2,21 @@
 ### *Data-Driven Insights into Consumer Purchasing Patterns*
 
 ---
-
 ## 📑 Table of Contents
-- 🛍️ [Project Overview](#project-overview)
-- 📂 [Dataset Description](#dataset-description)
-- 🔎 [Key Analysis Areas](#key-analysis-areas)
-- 🛠️ [Tools & Technologies](#tools--technologies)
-- 📊 [Dashboard Concept](#dashboard-concept)
-- 🔄 [Project Workflow](#project-workflow)
-- 🗂️ [Project Structure](#project-structure)
-- ▶️ [How to Run](#how-to-run)
-- 💡 [Key Insights](#key-insights)
-- 💼 [Business Value](#business-value)
+
+- 🛍️ [Project Overview](#project-overview)  
+- 📂 [Dataset Description](#dataset-description)  
+- 🔎 [Key Analysis Areas](#key-analysis-areas)  
+- 🛠️ [Tools & Technologies](#tools--technologies)  
+- 📊 [Dashboard Concept](#dashboard-concept)  
+- 🔄 [Project Workflow](#project-workflow)  
+- 🗂️ [Project Structure](#project-structure)  
+- ▶️ [How to Run](#how-to-run)  
+- 💡 [Key Insights](#key-insights)  
+- 💼 [Business Value](#business-value)  
 - ✅ [Conclusion](#conclusion)
+
+
 
 ---
 
