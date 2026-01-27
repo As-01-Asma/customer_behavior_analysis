@@ -1,5 +1,4 @@
-👥👥 🛍️🛒 👩‍💻
-
+# 👥👥 🛍️🛒 👩‍💻
 # Customer Shopping Behavior Analysis
 ### *Data-Driven Insights into Consumer Purchasing Patterns*
 
