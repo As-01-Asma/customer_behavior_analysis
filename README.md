@@ -20,7 +20,7 @@
 
 ---
 
-## 🛍️ Project Overview
+## Project Overview
 This project analyzes **customer shopping behavior** using transactional retail data to understand how customers interact with products and services.
 
 Focus areas include **buying patterns, repeat purchases, discounts, reviews, seasonal trends, and customer preferences** to support **data-driven business decisions**.
@@ -29,9 +29,9 @@ Technologies used: **Python (Jupyter Notebook), SQL (PostgreSQL), and Power BI c
 
 ---
 
-## 📂 Dataset Description
-- **Total Records:** 3,900  
-- **Total Columns:** 18  
+## Dataset Description
+- 📊 **Total Records:** 3,900  
+- 🗂️ **Total Columns:** 18  
 
 ### Key Attributes
 - 👤 Customer demographics (Age, Gender, Location, Subscription Status)  
@@ -43,7 +43,7 @@ Technologies used: **Python (Jupyter Notebook), SQL (PostgreSQL), and Power BI c
 
 ---
 
-## 🔎 Key Analysis Areas
+## Key Analysis Areas
 - 🛍️ Customer buying behavior  
 - 🔄 Repeat vs one-time customers  
 - 💰 Impact of discounts on purchasing decisions  
@@ -53,14 +53,14 @@ Technologies used: **Python (Jupyter Notebook), SQL (PostgreSQL), and Power BI c
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - 🐍 Python (Pandas, Jupyter Notebook) – Data cleaning, transformation, EDA, feature engineering  
 - 🗄️ SQL (PostgreSQL) – Business analysis, customer segmentation, revenue insights  
 - 📊 Power BI – Dashboarding and visualization of key business metrics  
 
 ---
 
-## 📊 Dashboard Concept
+## Dashboard Concept
 The Power BI dashboard highlights:  
 - 📈 Key Performance Indicators (KPIs)  
 - 👥 Customer segmentation insights  
@@ -72,7 +72,7 @@ The Power BI dashboard highlights:
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 1. 📥 Data collection and understanding  
 2. 🧹 Data cleaning and preparation (Python / Jupyter Notebook)  
 3. 🔎 Exploratory Data Analysis (EDA)  
@@ -82,7 +82,7 @@ The Power BI dashboard highlights:
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 Customer-Behaviour-Analysis/  
 ├── data/  
 │   └── customer_transactions.csv  
@@ -97,7 +97,7 @@ Customer-Behaviour-Analysis/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 1. 📋 Clone the repository  
 2. 🐍 Install required Python library: `pandas`  
 3. 📝 Run Jupyter notebooks for data cleaning and EDA  
@@ -107,7 +107,7 @@ Customer-Behaviour-Analysis/
 
 ---
 
-## 💼 Business Value
+## Business Value
 - 🤝 Enhances customer engagement through **targeted insights**  
 - 📈 Optimizes marketing campaigns and promotional strategies  
 - 💖 Supports **customer retention and loyalty programs**  
@@ -115,18 +115,18 @@ Customer-Behaviour-Analysis/
 
 ---
 
-## 📌 Business Recommendations
-- 🎯 **Focus on high-value customers**: Prioritize resources on segments that drive maximum revenue.  
-- 💵 **Implement targeted promotions**: Use seasonal and demographic insights to maximize conversion.  
-- 🛒 **Promote top-rated products strategically**: Leverage positive reviews to increase sales of high-potential items.  
-- 🔄 **Encourage repeat purchases**: Introduce loyalty programs and subscription benefits.  
-- 📦 **Optimize logistics and shipping**: Align delivery options with customer preferences to enhance satisfaction.  
-- 👥 **Personalize customer interactions**: Tailor marketing messages based on age, location, and purchase behavior.  
-- 📊 **Leverage data for recruitment and training**: Use insights to identify skills needed in marketing, sales, and analytics teams.  
+## Business Recommendations
+- 🎯 **Focus on high-value customers**: Prioritize resources on segments that drive maximum revenue  
+- 💵 **Implement targeted promotions**: Use seasonal and demographic insights to maximize conversion  
+- 🛒 **Promote top-rated products strategically**: Leverage positive reviews to increase sales of high-potential items  
+- 🔄 **Encourage repeat purchases**: Introduce loyalty programs and subscription benefits  
+- 📦 **Optimize logistics and shipping**: Align delivery options with customer preferences to enhance satisfaction  
+- 👥 **Personalize customer interactions**: Tailor marketing messages based on age, location, and purchase behavior  
+- 📊 **Leverage data for recruitment and training**: Use insights to identify skills needed in marketing, sales, and analytics teams  
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 This project demonstrates a **complete end-to-end customer behavior analysis**, transforming raw transactional data into **actionable business insights**.
 
 By integrating **Python, SQL, and Power BI**, the project mirrors **real-world data analyst workflows** and supports strategic decision-making for retail businesses.
