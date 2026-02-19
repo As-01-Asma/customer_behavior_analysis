@@ -12,6 +12,7 @@
 - 🛠️ [Tools & Technologies](#tools--technologies)
 - 📊 [Dashboard Concept](#dashboard-concept)
 - 🧩 [Model View](#model-view)
+- 🖼️ [Power BI Dashboard](#power-bi-dashboard)
 - 🔄 [Project Workflow](#project-workflow)
 - 🗂️ [Project Structure](#project-structure)
 - ▶️ [How to Run](#how-to-run)
@@ -23,11 +24,11 @@
 
 ## Project Overview
 
-This project analyzes **customer shopping behavior** using transactional retail data to understand how customers interact with products and services.
+This project analyzes **customer shopping behavior** using transactional retail data to understand purchasing patterns and customer preferences.
 
-Focus areas include **buying patterns, repeat purchases, discounts, reviews, seasonal trends, and customer preferences** to support **data-driven business decisions**.
+The analysis focuses on buying trends, repeat purchases, discount usage, demographic segmentation, and seasonal insights to support data-driven business decisions.
 
-Technologies used: **Python (Jupyter Notebook), SQL (PostgreSQL), and Power BI concepts**.
+Technologies used: **Python (Jupyter Notebook), SQL (PostgreSQL), and Power BI**.
 
 ---
 
@@ -47,7 +48,7 @@ Power BI (Dashboard & Visualization)
 Business Insights & Recommendations
 ```
 
-This architecture represents a complete **end-to-end data analytics pipeline**, from raw transactional data to strategic decision-making.
+This represents a complete end-to-end analytics workflow from raw data to actionable insights.
 
 ---
 
@@ -60,41 +61,41 @@ This architecture represents a complete **end-to-end data analytics pipeline**, 
 
 - 👤 Customer demographics (Age, Gender, Location, Subscription Status)  
 - 🛒 Purchase details (Item Purchased, Category, Purchase Amount, Season, Size, Color)  
-- 💸 Discount and promotion indicators  
-- ⭐ Customer reviews and ratings (missing values handled)  
-- 🔁 Purchase frequency and repeat behavior  
-- 🚚 Shipping type preferences  
+- 💸 Discount indicators  
+- ⭐ Customer ratings and reviews  
+- 🔁 Purchase frequency  
+- 🚚 Shipping preferences  
 
 ---
 
 ## Key Analysis Areas
 
 - 🛍️ Customer buying behavior  
-- 🔄 Repeat vs one-time customers  
-- 💰 Impact of discounts on purchasing decisions  
-- ⭐ Influence of customer reviews and ratings  
+- 🔄 Repeat vs one-time buyers  
+- 💰 Impact of discounts  
+- ⭐ Rating influence on purchases  
 - 🌦️ Seasonal demand trends  
-- 📦 Subscription and shipping behavior  
+- 📦 Subscription behavior  
 
 ---
 
 ## Tools & Technologies
 
-- 🐍 **Python** (Pandas, Jupyter Notebook) – Data cleaning, transformation, EDA, feature engineering  
-- 🗄️ **SQL** (PostgreSQL) – Business analysis, customer segmentation, revenue insights  
-- 📊 **Power BI** – Dashboarding and visualization of key business metrics  
+- 🐍 **Python** – Data cleaning, transformation, exploratory analysis  
+- 🗄️ **SQL (PostgreSQL)** – Business queries and segmentation  
+- 📊 **Power BI** – Data visualization and dashboard reporting  
 
 ---
 
 ## Dashboard Concept
 
-The Power BI dashboard highlights:
+The dashboard highlights:
 
 - 📈 Key Performance Indicators (KPIs)  
-- 👥 Customer segmentation insights  
-- 💵 Revenue and trend analysis  
+- 👥 Customer segmentation  
+- 💵 Revenue trends  
 - 💸 Discount effectiveness  
-- 🚚 Shipping preference distribution  
+- 🚚 Shipping distribution  
 
 ---
 
@@ -102,23 +103,40 @@ The Power BI dashboard highlights:
 
 ![Model View](model_view.png)
 
-The data model is structured for optimized reporting and analysis.
+The model consists of a single main table named **`public customer`**.
 
-- 🧩 Fact table containing transactional purchase data  
-- 📂 Dimension tables for customers and product categories  
-- 🔗 Relationships defined using primary and foreign keys  
-- 📊 Optimized schema for Power BI performance  
+### Fields in `public customer`
+
+- **customer_id** – Unique customer identifier  
+- **Age Category Clean** – Cleaned age classification  
+- **age_group** – Grouped age segments  
+- **gender** – Customer gender  
+- **category** – Product category  
+- **item_purchased** – Purchased item  
+- **Color** – Product color  
+- **discount_applied** – Indicates if discount was used  
+- **Frequency of Purchases** – Purchase frequency indicator  
+
+This structure combines demographic and purchase behavior data to support segmentation and reporting.
+
+---
+
+## Power BI Dashboard
+
+![Customer Behaviour Dashboard](customer_behaviour_dashboard.png)
+
+The final dashboard visualizes customer trends, revenue insights, discount impact, and segmentation analysis.
 
 ---
 
 ## Project Workflow
 
-1. 📥 Data collection and understanding  
-2. 🧹 Data cleaning and preparation (Python / Jupyter Notebook)  
-3. 🔎 Exploratory Data Analysis (EDA)  
-4. 🗄️ SQL-based business analysis  
-5. 💡 Insight generation  
-6. 📊 Dashboard visualization (Power BI)  
+1. 📥 Data collection  
+2. 🧹 Data cleaning (Python)  
+3. 🔎 Exploratory analysis  
+4. 🗄️ SQL-based insights  
+5. 📊 Dashboard development  
+6. 💡 Business recommendations  
 
 ---
 
@@ -135,6 +153,7 @@ Customer-Behaviour-Analysis/
 │   └── business_queries.sql
 ├── project_architecture.png
 ├── model_view.png
+├── customer_behaviour_dashboard.png
 └── README.md
 ```
 
@@ -142,38 +161,33 @@ Customer-Behaviour-Analysis/
 
 ## How to Run
 
-1. 📋 Clone the repository  
-2. 🐍 Install required Python library: `pandas`  
-3. 📝 Run Jupyter notebooks for data cleaning and EDA  
-4. 🗄️ Load cleaned dataset into PostgreSQL  
-5. 💻 Execute SQL queries provided  
-6. 📊 Explore insights using the Power BI dashboard  
+1. Clone the repository  
+2. Install required Python libraries (`pandas`)  
+3. Run Jupyter notebooks  
+4. Execute SQL queries in PostgreSQL  
+5. Open Power BI dashboard  
 
 ---
 
 ## Business Value
 
-- 🤝 Enhances customer engagement through **targeted insights**  
-- 📈 Optimizes marketing campaigns and promotional strategies  
-- 💖 Supports **customer retention and loyalty programs**  
-- 💵 Enables informed decisions on **pricing, discounting, and product offerings**  
+- 🤝 Improves customer targeting  
+- 📈 Optimizes marketing strategies  
+- 💖 Supports customer retention  
+- 💵 Enables data-driven pricing decisions  
 
 ---
 
 ## Business Recommendations
 
-- 🎯 **Focus on high-value customers**  
-- 💵 **Implement targeted promotions**  
-- 🛒 **Promote top-rated products strategically**  
-- 🔄 **Encourage repeat purchases**  
-- 📦 **Optimize logistics and shipping**  
-- 👥 **Personalize customer interactions**  
-- 📊 **Leverage data for strategic improvement**  
+- 🎯 Target high-value customers  
+- 💵 Use strategic discount campaigns  
+- 🔄 Encourage repeat purchases  
+- 📦 Optimize logistics strategy  
+- 📊 Leverage analytics for growth  
 
 ---
 
 ## Conclusion
 
-This project demonstrates a **complete end-to-end customer behavior analysis**, transforming raw transactional data into **actionable business insights**.
-
-By integrating **Python, SQL, and Power BI**, the project mirrors **real-world data analyst workflows** and supports strategic decision-making for retail businesses.
+This project demonstrates a complete customer behavior analysis workflow integrating **Python, SQL, and Power BI** to transform raw transactional data into actionable business insights.
