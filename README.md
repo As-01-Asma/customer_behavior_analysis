@@ -12,7 +12,6 @@
 - 🛠️ [Tools & Technologies](#tools--technologies)
 - 📊 [Dashboard Concept](#dashboard-concept)
 - 🧩 [Model View](#model-view)
-- 🖼️ [Power BI Dashboard](#power-bi-dashboard)
 - 🔄 [Project Workflow](#project-workflow)
 - 🗂️ [Project Structure](#project-structure)
 - ▶️ [How to Run](#how-to-run)
@@ -34,7 +33,7 @@ Technologies used: **Python (Jupyter Notebook), SQL (PostgreSQL), and Power BI c
 
 ## Project Architecture
 
-![Project Architecture](dashboard/project_architecture.png)
+![Project Architecture](project_architecture.png)
 
 ```
 Raw CSV Data
@@ -97,11 +96,11 @@ The Power BI dashboard highlights:
 - 💸 Discount effectiveness  
 - 🚚 Shipping preference distribution  
 
-> Dashboard file: `dashboard/customer_behaviour_dashboard.pbix`
-
 ---
 
 ## Model View
+
+![Model View](model_view.png)
 
 The data model is structured for optimized reporting and analysis.
 
@@ -109,12 +108,6 @@ The data model is structured for optimized reporting and analysis.
 - 📂 Dimension tables for customers and product categories  
 - 🔗 Relationships defined using primary and foreign keys  
 - 📊 Optimized schema for Power BI performance  
-
----
-
-## Power BI Dashboard
-
-Below is the final interactive dashboard developed in Power BI.
 
 ---
 
@@ -140,9 +133,8 @@ Customer-Behaviour-Analysis/
 │   └── exploratory_analysis.ipynb
 ├── sql/
 │   └── business_queries.sql
-├── dashboard/
-│   ├── customer_behaviour_dashboard.pbix
-│   └── project_architecture.png
+├── project_architecture.png
+├── model_view.png
 └── README.md
 ```
 
