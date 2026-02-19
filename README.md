@@ -5,25 +5,21 @@
 ---
 
 ## 📑 Table of Contents
-- 🛍️ [Project Overview](#project-overview)
-- 🏗️ [Project Architecture](#project-architecture)
-- 📂 [Dataset Description](#dataset-description)
-- 🔎 [Key Analysis Areas](#key-analysis-areas)
-- 🛠️ [Tools & Technologies](#tools--technologies)
-- 📊 [Dashboard Concept](#dashboard-concept)
-- 🧩 [Model View](#model-view)
-- 🖼️ [Power BI Dashboard](#power-bi-dashboard)
-- 🔄 [Project Workflow](#project-workflow)
-- 🗂️ [Project Structure](#project-structure)
-- ▶️ [How to Run](#how-to-run)
-- 💼 [Business Value](#business-value)
-- 📌 [Business Recommendations](#business-recommendations)
-- ✅ [Conclusion](#conclusion)
+- 🛍️ [Project Overview](#project-overview)  
+- 📂 [Dataset Description](#dataset-description)  
+- 🔎 [Key Analysis Areas](#key-analysis-areas)  
+- 🛠️ [Tools & Technologies](#tools--technologies)  
+- 📊 [Dashboard Concept](#dashboard-concept)  
+- 🔄 [Project Workflow](#project-workflow)  
+- 🗂️ [Project Structure](#project-structure)  
+- ▶️ [How to Run](#how-to-run)  
+- 💼 [Business Value](#business-value)  
+- 📌 [Business Recommendations](#business-recommendations)  
+- ✅ [Conclusion](#conclusion)  
 
 ---
 
 ## Project Overview
-
 This project analyzes **customer shopping behavior** using transactional retail data to understand how customers interact with products and services.
 
 Focus areas include **buying patterns, repeat purchases, discounts, reviews, seasonal trends, and customer preferences** to support **data-driven business decisions**.
@@ -32,33 +28,11 @@ Technologies used: **Python (Jupyter Notebook), SQL (PostgreSQL), and Power BI c
 
 ---
 
-## Project Architecture
-
-![Project Architecture](dashboard/project_architecture.png)
-
-```
-Raw CSV Data
-      ↓
-Python (Data Cleaning & EDA)
-      ↓
-PostgreSQL (Business Queries & Segmentation)
-      ↓
-Power BI (Dashboard & Visualization)
-      ↓
-Business Insights & Recommendations
-```
-
-This architecture represents a complete **end-to-end data analytics pipeline**, from raw transactional data to strategic decision-making.
-
----
-
 ## Dataset Description
-
 - 📊 **Total Records:** 3,900  
 - 🗂️ **Total Columns:** 18  
 
 ### Key Attributes
-
 - 👤 Customer demographics (Age, Gender, Location, Subscription Status)  
 - 🛒 Purchase details (Item Purchased, Category, Purchase Amount, Season, Size, Color)  
 - 💸 Discount and promotion indicators  
@@ -69,7 +43,6 @@ This architecture represents a complete **end-to-end data analytics pipeline**, 
 ---
 
 ## Key Analysis Areas
-
 - 🛍️ Customer buying behavior  
 - 🔄 Repeat vs one-time customers  
 - 💰 Impact of discounts on purchasing decisions  
@@ -80,46 +53,25 @@ This architecture represents a complete **end-to-end data analytics pipeline**, 
 ---
 
 ## Tools & Technologies
-
-- 🐍 **Python** (Pandas, Jupyter Notebook) – Data cleaning, transformation, EDA, feature engineering  
-- 🗄️ **SQL** (PostgreSQL) – Business analysis, customer segmentation, revenue insights  
-- 📊 **Power BI** – Dashboarding and visualization of key business metrics  
+- 🐍 Python (Pandas, Jupyter Notebook) – Data cleaning, transformation, EDA, feature engineering  
+- 🗄️ SQL (PostgreSQL) – Business analysis, customer segmentation, revenue insights  
+- 📊 Power BI – Dashboarding and visualization of key business metrics  
 
 ---
 
 ## Dashboard Concept
-
-The Power BI dashboard highlights:
-
+The Power BI dashboard highlights:  
 - 📈 Key Performance Indicators (KPIs)  
 - 👥 Customer segmentation insights  
 - 💵 Revenue and trend analysis  
 - 💸 Discount effectiveness  
 - 🚚 Shipping preference distribution  
 
-> Dashboard file: `dashboard/customer_behaviour_dashboard.pbix`
-
----
-
-## Model View
-
-The data model is structured for optimized reporting and analysis.
-
-- 🧩 Fact table containing transactional purchase data  
-- 📂 Dimension tables for customers and product categories  
-- 🔗 Relationships defined using primary and foreign keys  
-- 📊 Optimized schema for Power BI performance  
-
----
-
-## Power BI Dashboard
-
-Below is the final interactive dashboard developed in Power BI.
+> Dashboard file: `dashboard/customer_behaviour_dashboard.pbix`  
 
 ---
 
 ## Project Workflow
-
 1. 📥 Data collection and understanding  
 2. 🧹 Data cleaning and preparation (Python / Jupyter Notebook)  
 3. 🔎 Exploratory Data Analysis (EDA)  
@@ -130,26 +82,21 @@ Below is the final interactive dashboard developed in Power BI.
 ---
 
 ## Project Structure
-
-```
-Customer-Behaviour-Analysis/
-├── data/
-│   └── customer_transactions.csv
-├── notebooks/
-│   ├── data_cleaning.ipynb
-│   └── exploratory_analysis.ipynb
-├── sql/
-│   └── business_queries.sql
-├── dashboard/
-│   ├── customer_behaviour_dashboard.pbix
-│   └── project_architecture.png
-└── README.md
-```
+Customer-Behaviour-Analysis/  
+├── data/  
+│   └── customer_transactions.csv  
+├── notebooks/  
+│   ├── data_cleaning.ipynb  
+│   └── exploratory_analysis.ipynb  
+├── sql/  
+│   └── business_queries.sql  
+├── dashboard/  
+│   └── customer_behaviour_dashboard.pbix  
+└── README.md  
 
 ---
 
 ## How to Run
-
 1. 📋 Clone the repository  
 2. 🐍 Install required Python library: `pandas`  
 3. 📝 Run Jupyter notebooks for data cleaning and EDA  
@@ -160,7 +107,6 @@ Customer-Behaviour-Analysis/
 ---
 
 ## Business Value
-
 - 🤝 Enhances customer engagement through **targeted insights**  
 - 📈 Optimizes marketing campaigns and promotional strategies  
 - 💖 Supports **customer retention and loyalty programs**  
@@ -169,19 +115,17 @@ Customer-Behaviour-Analysis/
 ---
 
 ## Business Recommendations
-
-- 🎯 **Focus on high-value customers**  
-- 💵 **Implement targeted promotions**  
-- 🛒 **Promote top-rated products strategically**  
-- 🔄 **Encourage repeat purchases**  
-- 📦 **Optimize logistics and shipping**  
-- 👥 **Personalize customer interactions**  
-- 📊 **Leverage data for strategic improvement**  
+- 🎯 **Focus on high-value customers**: Prioritize resources on segments that drive maximum revenue  
+- 💵 **Implement targeted promotions**: Use seasonal and demographic insights to maximize conversion  
+- 🛒 **Promote top-rated products strategically**: Leverage positive reviews to increase sales of high-potential items  
+- 🔄 **Encourage repeat purchases**: Introduce loyalty programs and subscription benefits  
+- 📦 **Optimize logistics and shipping**: Align delivery options with customer preferences to enhance satisfaction  
+- 👥 **Personalize customer interactions**: Tailor marketing messages based on age, location, and purchase behavior  
+- 📊 **Leverage data for recruitment and training**: Use insights to identify skills needed in marketing, sales, and analytics teams  
 
 ---
 
 ## Conclusion
-
 This project demonstrates a **complete end-to-end customer behavior analysis**, transforming raw transactional data into **actionable business insights**.
 
 By integrating **Python, SQL, and Power BI**, the project mirrors **real-world data analyst workflows** and supports strategic decision-making for retail businesses.
