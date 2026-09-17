@@ -17,13 +17,13 @@ where discount_applied = 'Yes'  and purchase_amount >= (select avg(purchase_amou
 
 
 -- Q3. Top 5 products with highest average review rating
-select item_purchased, ROUND(AVG(review_rating::numeric),2) as "Average Product Rating"
-from customer
-group by item_purchased
-order by avg(review_rating) desc
-limit 5
 
-
+SELECT item_purchased,
+       AVG(review_rating) AS average_product_rating
+FROM customer
+GROUP BY item_purchased
+ORDER BY average_product_rating DESC
+LIMIT 5;
 
 -- Q4. Compare average Purchase Amounts for Standard and Express Shipping
 select shipping_type, 
@@ -46,12 +46,12 @@ ORDER BY total_revenue,avg_spend DESC;
 
 
 -- Q6. Top 5 products with highest percentage of purchases with discounts applied
-select item_purchased,
-round(100 * sum(case when discount_applied = 'Yes' then 1 else 0 end)/count(*) ,2) as discount_rate
-from customer
-group by item_purchased
-order by discount_rate desc
-limit 5;
+SELECT item_purchased,
+       100 * SUM(CASE WHEN discount_applied = 'Yes' THEN 1 ELSE 0 END) / COUNT(*) AS discount_rate
+FROM customer
+GROUP BY item_purchased
+ORDER BY discount_rate DESC
+LIMIT 5;
 
 
 
@@ -81,13 +81,13 @@ from customer
 group by category, item_purchased
 )
 
-select item_rank, category, item_purchased, total_orders
+select  category, item_purchased, total_orders
 from item_counts
 where item_rank <= 3;
 
 
 
--- Q9. Repeat buyers (>5 previous purchases) and subscription status
+-- Q9. Find repeat buyers (>5 previous purchases) by subscription status.
 select subscription_status,
 count(customer_id) as repeat_buyers
 from customer
